@@ -3,8 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="Content" runat="server">
     <br />
     <dx:ASPxLabel ID="sLabel" runat="server"></dx:ASPxLabel>
-
-    <dx:BootstrapPopupControl runat="server" AllowDragging="true" AllowResize="true" CssClasses-Header="biggerfont" HeaderText="dwqeqwe" PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" ClientInstanceName="popupdddd" ID="Bootstrapsdsdsdsn" PopupAnimationType="Fade" CloseAnimationType="Slide">
+   
+    <dx:BootstrapPopupControl runat="server"  AllowDragging="true" AllowResize="true" CssClasses-Header="biggerfont" HeaderText="dwqeqwe" PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" ClientInstanceName="popupdddd" ID="Bootstrapsdsdsdsn" PopupAnimationType="Fade" CloseAnimationType="Slide">
         <ContentCollection>
             <dx:ContentControl>
                 <p>
@@ -22,7 +22,7 @@
                     <br />
                     <dx:ASPxSpinEdit ID="ASPxSpinEditAus" runat="server" Font-Size="96px" Number="1">
                     </dx:ASPxSpinEdit>
-                    <dx:ASPxButton ID="ASPxButton1" Width="250" runat="server" Font-Size="XX-Large" AutoPostBack="true" Text="Text"></dx:ASPxButton>
+                    <dx:ASPxButton ID="ASPxButton1" Width="250" runat="server" Font-Size="XX-Large" AutoPostBack="true"  Text="Text"></dx:ASPxButton>
                 </p>
             </dx:ContentControl>
         </ContentCollection>
@@ -56,13 +56,13 @@
 
 
     <div class="text-center">
-        <asp:Label ID="LabelTopic" runat="server" Text="Label" Font-Size="XX-Large">Filtermenue on Browser 100% and Windows 125% Scaling Pages wrong position </asp:Label>
+        <asp:Label ID="LabelTopic" runat="server" Text="Label" Font-Size="XX-Large">Filtermenue on Windows scaled 125% Pages wrong position </asp:Label>
     </div>
     <div id="loader" class="center"></div>
     <br />
     <br />
     <div class="text-center">
-        <dx:BootstrapButton CssClasses-Text="alert-success" runat="server" ID="Butt" Text="SPECIAL BUTTON" />
+        <dx:BootstrapButton CssClasses-Text="alert-success" runat="server" ID="Butt"  Text="SPECIAL BUTTON" />
     </div>
     <br />
     <dx:BootstrapFormLayout runat="server" Visible="false" ID="FormLayoutDataBinding">
@@ -110,7 +110,7 @@
             <dx:BootstrapLayoutItem Caption="sadasd" Name="sadasd" ColSpanMd="6">
                 <ContentCollection>
                     <dx:ContentControl>
-                        <dx:BootstrapComboBox runat="server" ID="sdafjag">
+           <dx:BootstrapComboBox runat="server" ID="sdafjag"> 
                         </dx:BootstrapComboBox>
                     </dx:ContentControl>
                 </ContentCollection>
@@ -148,10 +148,10 @@
             <dx:BootstrapLayoutItem Caption=" " FieldName=" " Name=" " ColSpanMd="6">
                 <ContentCollection>
                     <dx:ContentControl>
-                        <dx:BootstrapButton runat="server" Text="Speichern" ID="btnSubmit" SettingsBootstrap-RenderOption="Primary" AutoPostBack="true">
+                        <dx:BootstrapButton runat="server" Text="Speichern" ID="btnSubmit" SettingsBootstrap-RenderOption="Primary" AutoPostBack="true" >
                             <SettingsBootstrap RenderOption="Primary"></SettingsBootstrap>
                         </dx:BootstrapButton>
-                        <dx:BootstrapButton runat="server" Text="Abbrechen" ID="btnCorrect" ValidationGroup="None" SettingsBootstrap-RenderOption="Link" AutoPostBack="false">
+                        <dx:BootstrapButton runat="server" Text="Abbrechen" ID="btnCorrect" ValidationGroup="None" SettingsBootstrap-RenderOption="Link" AutoPostBack="false" >
                             <SettingsBootstrap RenderOption="Link"></SettingsBootstrap>
                         </dx:BootstrapButton>
                     </dx:ContentControl>
@@ -174,8 +174,8 @@
 
         <Settings ShowGroupPanel="True" />
         <SettingsEditing Mode="PopupEditForm" />
-        <Settings ShowHeaderFilterButton="true" ShowFilterRowMenu="true" ShowHeaderFilterBlankItems="false" />
-
+         <Settings ShowHeaderFilterButton="true" ShowFilterRowMenu="true" ShowHeaderFilterBlankItems="false" />
+      
         <SettingsPopup EditForm-SettingsAdaptivity-MinWidth="1000px">
             <HeaderFilter MinHeight="140px"></HeaderFilter>
         </SettingsPopup>
@@ -218,7 +218,6 @@
 
                                     <div style="text-align: center">
                                         no content
-                                   
                                     </div>
                                 </dx:ContentControl>
                             </ContentCollection>
@@ -256,7 +255,7 @@
                                                     <dx:BootstrapLayoutItem ColSpanMd="3" ShowCaption="False">
                                                         <ContentCollection>
                                                             <dx:ContentControl>
-                                                                <dx:BootstrapButton ID="BootstrapButton2" Width="100" runat="server" AutoPostBack="false" UseSubmitBehavior="true" Text="OK">
+                                                                <dx:BootstrapButton ID="BootstrapButton2" Width="100" runat="server"  AutoPostBack="false" UseSubmitBehavior="true" Text="OK">
                                                                 </dx:BootstrapButton>
                                                             </dx:ContentControl>
                                                         </ContentCollection>
@@ -295,7 +294,6 @@
 
                                     <div style="text-align: center">
                                         ccccc
-                                   
                                     </div>
                                 </dx:ContentControl>
                             </ContentCollection>
