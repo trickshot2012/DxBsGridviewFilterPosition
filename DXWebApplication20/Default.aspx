@@ -56,7 +56,7 @@
 
 
     <div class="text-center">
-        <asp:Label ID="LabelTopic" runat="server" Text="Label" Font-Size="XX-Large">Filtermenue on 125% Pages wrong position </asp:Label>
+        <asp:Label ID="LabelTopic" runat="server" Text="Label" Font-Size="XX-Large">Filtermenue on Browser 100% and Windows 125% Scaling Pages wrong position </asp:Label>
     </div>
     <div id="loader" class="center"></div>
     <br />
