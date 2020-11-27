@@ -4,6 +4,8 @@
 
 ## Solution
 
+```
 .dxbs-popup.modal-dialog.dxbs-popup-fixed-width.hf-list {
               z-index: 1500 !important;
           }
+```
